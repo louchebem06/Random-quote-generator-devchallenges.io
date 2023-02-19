@@ -17,21 +17,21 @@
     font-style: normal;
 }
 
+body {
+	min-height: 100vh;
+	min-width: 100vw;
+	position: relative;
+	background-color: var(--white1);
+}
+
 .material-symbols-outlined {
 	font-variation-settings:
 	'FILL' 1,
 	'wght' 400,
 	'GRAD' 0,
 	'opsz' 24
-}  
+}
 
-/* font-family: 'Montserrat', sans-serif; */
+h1, h2, h3, h4, h5, h6, b { font-weight: 700; }
 
-/* <span class="material-symbols-outlined">
-</span> */
-
-/* autorenew
-arrow_right_alt */
-
-/* One random: https://quote-garden.onrender.com/api/v3/quotes/random?limit=1
-Get Random Author: https://quote-garden.onrender.com/api/v3/quotes?author=Bill%20Gates&limit=3&page=1 */
+p, a, button { font-weight: 500; }
